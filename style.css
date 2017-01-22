@@ -1,0 +1,110 @@
+
+body.index {
+  background: url(media/main.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.about {
+  background: url(media/me.jpeg) no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.blog {
+  background: url(media/write.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+p {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+.navigation {
+  text-align: center;
+  word-spacing: 2em;
+  position: center;
+    margin: 300px:
+}
+
+.welcome {
+  position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 1100px;
+     width: 1000px;
+     height: 100px;
+}
+
+#about-me {
+  position: absolute;
+  margin: auto;
+  top: 200px;
+  right: 1200px;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 300px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+#blog {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 200px;
+  left: 1000px;
+  width: 700px;
+  height: 300px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
